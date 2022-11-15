@@ -1,8 +1,32 @@
-.site-header__inner{
+.site-header {
+    padding: 77px 0px;
+}
+
+.site-header__inner {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+   
 
 }
-.site-header__list{
+
+
+.site-header__list {
     display: flex;
+}
+
+.site-header__navbar {
+    margin-left: 80px;
+}
+
+.site-header__btn {
+    margin-left: auto;
+    padding: 10px 32px;
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
 }

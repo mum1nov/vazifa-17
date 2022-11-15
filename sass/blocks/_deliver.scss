@@ -1,0 +1,121 @@
+.deliver {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    background: #004047;
+    position: relative;
+}
+
+.deliver::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 147px;
+    height: 100px;
+    background-image: url("../images/deliver/bg1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    top: 0;
+}
+
+.deliver::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 200px;
+    height: 100px;
+    background-image: url("../images/deliver/bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.deliver__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.deliver-box {
+    width: 100%;
+    max-width: 948px;
+    margin: 0 auto;
+}
+
+.deliver__titlte {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.span__deliver {
+    color: #79C8C7;
+}
+
+.deliver__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.delivery__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.delivery__item::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 67px;
+    height: 56px;
+    background-size: 100%;
+    background-image: url("../images/deliver/icon1.png");
+    background-repeat: no-repeat;
+    top: +16px;
+}
+
+.delivery__item::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 62px;
+    height: 62px;
+    background-size: 100%;
+    background-image: url("../images/deliver/icon2.png");
+    background-repeat: no-repeat;
+    bottom: 0;
+}
+
+.delivery__item:nth-child(2):after {
+    background-image: url("../images/deliver/icon3.png");
+}
+
+.delivery__item:nth-child(3):after {
+    background-image: url(../images/deliver/icon4.png);
+}
+
+.deliver__text {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.deliver__des {
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 2px;
+}

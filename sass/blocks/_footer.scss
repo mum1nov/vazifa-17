@@ -1,0 +1,26 @@
+.site-footer{
+    padding: 48px 0px;
+}
+.link{
+    text-decoration: none;
+}
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list{
+    display: flex;
+    column-gap: 40px;
+    
+}
+.footer-list:nth-child(1){
+    flex-direction: column;
+    row-gap: 5px;
+}
+.footer-logo__link{
+    margin-bottom: 25px;
+}
+.app__list{
+    display: flex;
+    column-gap:16px ;
+}
